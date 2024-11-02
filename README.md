@@ -22,7 +22,7 @@ Create a GPT.
 In the Configure tab, turn off all the capabilities (web search, image generation, and code interpretter).
 
 ### GPT Instructions and Prompt
-Copy instructions_template.txt into a new file. Replace "<BOTNAME>" with the name you'd like to assign your bot. Replace "<PERSONNAME>" with name of the person the bot is representing.
+Copy instructions_template.txt into a new file. Replace "&lt;BOTNAME&gt;" with the name you'd like to assign your bot. Replace "&lt;PERSONNAME&gt;" with name of the person the bot is representing.
 
 Copy/paste these instructions in to the Instructions box on the Configure tab.
 
@@ -30,7 +30,7 @@ Copy/paste these instructions in to the Instructions box on the Configure tab.
 Provide your resume or any other high-level document capturing the work experience you want the bot to be able to talk about. Upload this on the Configure tab. Make sure the file name matches the name in the instructions.
 
 ### Prepare Detailed Information
-Copy template_detailed_experience.md. Replace "<PERSONNAME>" with the name of the person the bot is representing.
+Copy template_detailed_experience.md. Replace "&lt;PERSONNAME&gt;" with the name of the person the bot is representing.
 
 This is a document in Markdown format with likely questions and detailed answers for the bot. The GPT4o will be able to exrapolate from this set to other similar questions. The template includes some likely starter questions. Include other questions that you think people are likely to ask you about.
 
